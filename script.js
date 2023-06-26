@@ -15,4 +15,6 @@ function update(time) {
     window.requestAnimationFrame(update)
 }
 
+document.addEventListener("mousemove")
+
 window.requestAnimationFrame(update)
