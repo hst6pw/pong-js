@@ -12,6 +12,7 @@
 body {
     margin: 0;
     background-color: var(--background-color);
+    overflow: hidden;
 }
 
 .paddle {
@@ -60,7 +61,7 @@ body {
     flex-basis: 0;
     padding: 0 2vh;
     margin: 1vh 0;
-    opacity: 0.5;
+    opacity: .5;
 }
 
 .score > :first-child {
